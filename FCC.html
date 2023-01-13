@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Programming Preferences</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<body>
+		<div class="bg-image"></div>
+		<div class="text">
+			<h1 id="title">Programming Preferences</h1>
+			<p id="description">
+				thank you for taking your time to complete my survey
+			</p>
+
+			<form id="survey-form">
+				<section>
+					<div>
+						<label for="name" id="name-label">Enter your name:</label><br />
+						<input id="name" type="text" required placeholder="Name" />
+					</div>
+					<div>
+						<label for="email" id="email-label">Enter your email address:</label
+						><br />
+						<input id="email" type="email" required placeholder="Email" />
+					</div>
+					<div>
+						<label for="number" id="number-label">Enter your age (optional):</label><br />
+						<input
+							id="number"
+							type="number"
+							min="0"
+							max="120"
+							placeholder="Age"
+						/>
+					</div>
+				</section>
+				<div>
+					<label for="dropbox">Select your prefered programming language:</label
+					><br />
+					<select id="dropdown">
+						<option>-select-</option>
+						<option>C/C++</option>
+						<option>Java</option>
+						<option>HTML/CSS</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="buton">Select your prefered programming device:</label
+					><br />
+					<input type="radio" name="buton" /><label>Laptop</label><br />
+					<input type="radio" name="buton" /><label>Desktop</label><br />
+					<input type="radio" name="buton" /><label>No Preference</label>
+				</div>
+				<div>
+					<label for="chechbox">Select your prefered operating system:</label
+					><br />
+					<input type="checkbox" value="checkbox" /><label>Windows</label><br />
+					<input type="checkbox" value="checkbox" /><label>IOS</label><br />
+					<input type="checkbox" value="checkbox" /><label>Android</label>
+				</div>
+				<p>If you have anything to add, you can do it below:</p>
+				<textarea id="textarea" name="textarea" rows="4" cols="30" placeholder="Add your comment here">
+</textarea
+				>
+				<div><button type="submit" id="submit">Submit</button></div>
+			</form>
+		</div>
+	</body>
+</html>

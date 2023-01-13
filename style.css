@@ -1,0 +1,86 @@
+body,
+html {
+	height: 120%;
+	margin: 0;
+	display: block;
+	width: 100%;
+	top:0;
+	left: 0;
+}
+* {
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+}
+.bg-image {
+	background-image: url("img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	filter: blur(3px);
+}
+h1 {
+	text-align: center;
+    font-size: 36px;;
+}
+
+#description {
+	text-align: center;
+	font-style: italic;
+}
+
+.text {
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+	position: absolute;
+	width: 45%;
+	color: aliceblue;
+	font-size: 16px;
+	background-color: rgba(11, 11, 26, 0.7);
+	padding: 30px;
+	height: 120%;
+	z-index: 1;
+	min-width: 300px;
+}
+
+div {
+	margin: 0 0 20px;
+}
+
+button {
+	width: 40%;
+	background-color: rgb(41, 41, 70);
+	border: none;
+	color: aliceblue;
+	height: 40px;
+    margin: 30px 30%;
+}
+
+#dropbox {
+	font-size: 10px;
+}
+
+label{
+    margin-bottom:20px;
+	
+}
+
+input, select, textarea{
+    background-color: rgba(11, 11, 26, 0.5);
+    color: rgba(220, 220, 220, 0.5);
+	border:  0.2px solid rgba(220, 220, 220, 0.2);
+	
+
+}
+
+input, #dropdown{
+	margin-top: 10px;
+	border: 0.2px solid rgba(220, 220, 220, 0.2);
+	
+}
+
+#number{
+	width:100px;
+}
